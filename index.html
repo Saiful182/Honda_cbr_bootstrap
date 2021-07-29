@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- custom css file -->
+    <link rel="stylesheet" href="css/style.css">
     <!-- Bootstrap css link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -12,32 +14,54 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+    <!-- header area start -->
+    <header class="bg-header-top">
+        <div class="container d-flex align-items-center gy-5 ">
+            <div class="col-lg-6">
+                <p class="text-light">Computer-controlled digital transistorized with electronic advance</p>
+                <h1 class="fs-1 text-light">Honda CBR 300R</h1>
+                <p class="text-light">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                    officia consequat
+                    duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+
+                <!-- Button trigger modal -->
+                <button type="button" height: 44px; width: 144px; class="btn-color " data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop">
+                    Purchase
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                        </li>
-                    </ul>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Each Purchase Order placed by buyer for goods and/or services is subject to these
+                                standard purchase terms and the terms of the applicable Purchase Order, and is
+                                conditional upon Supplier’s agreement to such terms. Supplier shall be deemed to have
+                                agreed to be bound by such terms by accepting the Purchase Order, delivering the goods,
+                                and/or performing the services.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Understood</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
             </div>
-        </nav>
+            <!-- header Bike Image -->
+            <div class="col-lg-6">
+                <img src="images/header-bike.png" height="450" width="550" alt="">
+            </div>
+
+        </div>
     </header>
 
     <!-- javascrript link  -->
