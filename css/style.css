@@ -15,6 +15,18 @@
     width: 40px;
    margin: auto;
     color: #E76F51;
-
     border: 1px solid transparent;
+}
+.custom-color{
+    color: #E76F51;
+}
+.gray-img{
+    filter: grayscale(100%)
+}
+.fav-icon{
+    color: #E77C40;
+}
+.blank{
+    color:transparent;
+    border: 1px solid #E77C40;
 }
