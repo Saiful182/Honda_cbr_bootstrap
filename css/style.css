@@ -26,3 +26,6 @@
 .fav-icon{
     color: #E77C40;
 }
+.show-rooms:hover h3{
+    color:white;
+}
